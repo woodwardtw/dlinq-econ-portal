@@ -22,15 +22,30 @@ defined( 'ABSPATH' ) || exit;
 	<div class="entry-content">
 
 		<?php the_content(); ?>
-
-		<?php
-		wp_link_pages(
-			array(
-				'before' => '<div class="page-links">' . __( 'Pages:', 'understrap' ),
-				'after'  => '</div>',
-			)
-		);
-		?>
+		<div class="row facet-row">
+			<div class="col-md-4">
+				<div class="facet-block">
+					<h2>Objective</h2>
+					<?php echo facetwp_display( 'facet', 'objective');?>	
+				</div>
+				<div class="facet-block">
+					<h2>Software</h2>
+					<?php echo facetwp_display( 'facet', 'software');?>	
+				</div>
+				<div class="facet-block">
+					<h2>Course</h2>
+					<?php echo facetwp_display( 'facet', 'course');?>	
+				</div>
+			</div>
+			<div class="col-md-8">
+				<?php echo facetwp_display( 'template', 'resources' );?>								
+			</div>
+			<div class="col-md-12">
+				<?php echo do_shortcode('[facetwp pager="true"]') ;?>
+								<button class="btn btn-alp btn-dark" value="Reset" onclick="FWP.reset()" class="facet-reset" />Reset Filters</button>	
+				
+			</div>
+		</div>
 
 	</div><!-- .entry-content -->
 
