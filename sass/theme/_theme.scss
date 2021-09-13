@@ -9,3 +9,38 @@ p {
 	font-family: 'Muli', Sans-Serif;
 	font-size: 16px;
 }
+
+//resource page
+
+.description {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.btn {
+  align-self: flex-end;
+  flex-grow: 1;
+}
+
+.resource-detail {
+	margin-top: 40px;
+}
+
+.resource-detail h2 {
+	font-size: 1.6em;
+	border-bottom: 1px solid #efefef;
+}
+
+.btn-primary {
+	border-radius: 50px;
+	max-width: 200px;
+	margin: 20px auto;
+	display: inline-block;
+}
+
+.resource-item {
+	margin: 10px 0;
+	border: 1px solid lime;
+	padding: 5px;
+}
