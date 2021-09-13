@@ -11,6 +11,9 @@ p {
 }
 
 //resource page
+.entry-title {
+	margin-bottom: 20px;
+}
 
 .description {
   display: flex;
@@ -23,13 +26,19 @@ p {
   flex-grow: 1;
 }
 
-.resource-detail {
+.resource-detail-section {
+	border: 1px solid $primary;
+	padding: 30px 20px;
 	margin-top: 40px;
 }
 
-.resource-detail h2 {
+.resource-detail {
+	margin-top: 10px;
+}
+
+.resource-detail h3 {
 	font-size: 1.6em;
-	border-bottom: 1px solid #efefef;
+
 }
 
 .btn-primary {
@@ -41,6 +50,16 @@ p {
 
 .resource-item {
 	margin: 10px 0;
-	border: 1px solid lime;
+	background-color: $primary;
 	padding: 5px;
+	color: #fff;
+}
+
+body {
+	background-color: #efefef;
+}
+
+#content {
+	background-color: #fff;
+	padding: 50px;
 }
