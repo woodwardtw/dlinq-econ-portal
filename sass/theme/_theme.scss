@@ -78,6 +78,32 @@ body {
 .facetwp-template {
 	width: 100%;
 }
+
+
+.facet-block {
+	overflow: hidden;
+	margin: 20px 20px 20px 0;
+}
+
+.facet-block h2:after {
+  background-color: $primary;
+  content: "";
+  display: inline-block;
+  height: 2px;
+  position: relative;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.facet-block h2:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+.facetwp-type-checkboxes {
+	margin-left: 15px;
+}
+
 .card {
 	border-radius: 0;
 	height: 400px;
@@ -94,6 +120,7 @@ body {
 .card img {
 	height: 300px;
 	object-fit: cover;
+	object-position: center;
 	border-bottom: 1px solid $lightest;
 }
 
