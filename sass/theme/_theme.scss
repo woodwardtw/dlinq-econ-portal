@@ -59,9 +59,15 @@ body {
 
 .resource-item {
 	margin: 10px 0;
-	background-color: $blue;
+	background-color: $primary;
 	padding: 5px;
 	color: #fff;
+}
+
+.resource-item a {
+	color: #fff;
+	width: 100%;
+	display: inline-block;
 }
 
 .course, .objective {

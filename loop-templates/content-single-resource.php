@@ -25,7 +25,7 @@ defined( 'ABSPATH' ) || exit;
 			</div>
 			<div class="col-md-8 description">
 				<?php the_field('resource_description')?>
-				<a class="btn btn-primary" href="<?php the_field('resource_link');?>">Go to Resource</a>
+				<a class="btn btn-primary" href="<?php the_field('resource_link');?>" aria-label='Open <?php echo get_the_title();?> in a new tab.' target="_blank">Go to Resource</a>
 			</div>
 		</div>
 		<div class="resource-detail-section row">

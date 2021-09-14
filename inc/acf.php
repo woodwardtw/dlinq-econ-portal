@@ -29,8 +29,13 @@ function econ_details($field){
         //var_dump($resources);
         foreach ($resources as $key => $resource) {
             // code...
+            $base_url = get_site_url();
             $name = $resource->name;
-            $html .= "<div class='resource-item'>{$name}</div>";
+            $slug = $resource->slug;
+            $facet_path = "?_{$field}={$slug}";
+            $full_path = $base_url . $facet_path;
+            
+            $html .= "<div class='resource-item'><a href='{$full_path}'>{$name}</a></div>";
         }
         return $html;
     } else {
