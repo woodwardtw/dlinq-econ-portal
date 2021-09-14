@@ -17,7 +17,7 @@ function resource_image(){
         $alt = $img_data['alt'];
         return "<img src='{$url}' alt='{$alt}' class='resource_image'>";
     } else {
-        $img_url = get_stylesheet_directory_uri() . '/imgs/network.png';
+        $img_url = get_stylesheet_directory_uri() . '/imgs/green-triangles.png';
         return "<img src='{$img_url}' alt='Random image meant to convey the idea of data.' class='resource-image'>";
     }
 }
