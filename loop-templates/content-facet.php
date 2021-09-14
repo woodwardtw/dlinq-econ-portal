@@ -38,7 +38,9 @@ defined( 'ABSPATH' ) || exit;
 				</div>
 			</div>
 			<div class="col-md-8">
-				<?php echo facetwp_display( 'template', 'resources' );?>								
+				<div class="row">
+					<?php echo facetwp_display( 'template', 'resources' );?>	
+				</div>							
 			</div>
 			<div class="col-md-12">
 				<?php echo do_shortcode('[facetwp pager="true"]') ;?>

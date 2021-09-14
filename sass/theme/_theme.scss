@@ -10,6 +10,15 @@ p {
 	font-size: 16px;
 }
 
+body {
+	background-color: #efefef;
+}
+
+#content {
+	background-color: #fff;
+	padding: 50px;
+}
+
 //resource page
 .entry-title {
 	margin-bottom: 20px;
@@ -55,11 +64,21 @@ p {
 	color: #fff;
 }
 
-body {
-	background-color: #efefef;
+.course, .objective {
+	border-right: 1px dotted $primary;
+}
+//facet view
+.card {
+	border-radius: 0;
+	height: 400px;
 }
 
-#content {
-	background-color: #fff;
-	padding: 50px;
+.card img {
+	height: 300px;
+	object-fit: cover;
+}
+
+.card a {
+	font-size: 1.4em;
+	font-weight: 700;
 }
