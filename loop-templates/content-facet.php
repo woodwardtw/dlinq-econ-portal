@@ -25,6 +25,10 @@ defined( 'ABSPATH' ) || exit;
 		<div class="row facet-row">
 			<div class="col-md-4">
 				<div class="facet-block">
+					<h2>Search</h2>
+					<?php echo facetwp_display( 'facet', 'search');?>	
+				</div>
+				<div class="facet-block">
 					<h2>Objective</h2>
 					<?php echo facetwp_display( 'facet', 'objective');?>	
 				</div>
