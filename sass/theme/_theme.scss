@@ -112,7 +112,7 @@ a.navbar-brand {
 	width: 100%;
 }
 
-.facetwp-template {
+.facetwp-template, .facetwp-facet input.facetwp-search, .facetwp-facet input.facetwp-location {
 	width: 100%;
 }
 
@@ -157,7 +157,7 @@ a.navbar-brand {
 	height: 300px;
 	min-width: 100%;
 	object-fit: cover;
-	object-position: center;
+  object-position: 50% 50%;
 	border-bottom: 1px solid $primary;
 }
 
