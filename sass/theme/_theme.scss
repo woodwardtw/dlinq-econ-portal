@@ -52,9 +52,14 @@ a.navbar-brand {
 }
 
 .resource-detail-section {
-	border: 1px solid $primary;
+	border-top: 1px dotted $primary;
+	border-bottom: 1px dotted $primary;
 	padding: 30px 20px;
 	margin-top: 40px;
+}
+
+.resource .widget-area {
+	border-left: 1px dotted $primary;
 }
 
 .resource-detail {
