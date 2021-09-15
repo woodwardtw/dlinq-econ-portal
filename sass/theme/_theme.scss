@@ -89,6 +89,20 @@ a.navbar-brand {
 .course, .objective {
 	border-right: 1px dotted $primary;
 }
+
+.description {
+	border-left: 1px dotted $primary;
+	padding-left: 25px;
+}
+
+.description ul, .description ol {
+	width: 100%;
+}
+
+.image-holder img {
+	box-shadow: 7px 7px 0px $primary;
+}
+
 //facet view
 
 .facetwp-template {
