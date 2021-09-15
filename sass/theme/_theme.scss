@@ -21,10 +21,14 @@ body {
 
 
 //navbar
+#main-nav {
+	background-color: $primary;
+}
+
 a.navbar-brand {
 	font-size: 3em;
 	font-family: 'Merriweather', Serif;
-	color: $primary;
+	color: #fff;
 	text-align: center;
 	margin: 0 auto;
 	display: inline-block;
