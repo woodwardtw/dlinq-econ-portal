@@ -179,6 +179,19 @@ a.navbar-brand {
 }
 
 @media only screen and (max-width: 600px) {
+	#content {
+		padding: 0 15px;
+	}
+
+.facetwp-template {
+	margin-left:0;
+	margin-right: 0;
+}
+
+	.card {
+		margin: 20px auto;
+	}
+
 	.card a {
 		font-size: 4vw;	
 	}
