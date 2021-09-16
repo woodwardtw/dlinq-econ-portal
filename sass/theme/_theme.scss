@@ -23,6 +23,10 @@ body {
 //navbar
 #main-nav {
 	background-color: $primary;
+	background-image: url(../imgs/partial-tri.png), url(../imgs/partial-tri-right.png);
+	background-repeat: no-repeat;
+	background-position: left top, right bottom;
+	background-size: contain;
 }
 
 a.navbar-brand {
