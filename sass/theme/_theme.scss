@@ -115,6 +115,21 @@ a.navbar-brand {
 	border: 1px solid $primary;
 }
 
+// .resource-detail h3:after {
+//   background-color: $primary;
+//   content: "";
+//   display: inline-block;
+//   height: 2px;
+//   position: relative;
+//   vertical-align: middle;
+//   width: 100%;
+// }
+
+// .resource-detail h3:after {
+//   left: 0.5em;
+//   margin-right: -50%;
+// }
+
 //facet view
 
 .facetwp-input-wrap {
@@ -194,6 +209,10 @@ a.navbar-brand {
 
 	.card a {
 		font-size: 4vw;	
+	}
+
+	.image-holder{
+		margin-bottom: 30px;
 	}
 
 }
